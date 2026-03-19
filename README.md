@@ -21,7 +21,7 @@ El asistente permite cargar documentos propios, indexarlos y realizar consultas 
 
 ## ⚙️ Instalación
 
-```bash
+
 # Descargar modelos necesarios
 ollama pull llama3
 ollama pull nomic-embed-text
