@@ -40,3 +40,24 @@ pip install -r requirements.txt
 
 # Ejecutar la aplicación
 streamlit run interfaz.py
+
+🌐 Acceso
+
+Una vez iniciada la aplicación, estará disponible en:
+
+👉 http://localhost:8501
+
+📁 Estructura del Repositorio
+├── app.py
+├── interfaz.py
+├── data/
+├── chroma_db/
+├── requirements.txt
+└── .gitignore
+🧩 Decisiones Técnicas
+
+Persistencia local en ChromaDB: Permite almacenar y reutilizar embeddings sin necesidad de recalcularlos.
+
+Privacidad total (100% local): No se envían datos a servicios externos, todo el procesamiento ocurre en tu máquina.
+
+Interfaz intuitiva con Streamlit: Facilita la interacción con el sistema RAG sin necesidad de conocimientos técnicos avanzados.
